@@ -1,9 +1,4 @@
-<div class="row">
- <div class="clm">
-  <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/118404012_2736707999943097_2666719053207134888_o.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_ohc=FUCMBa4l4ZAAX99DU91&_nc_ht=scontent-lhr8-1.xx&oh=4dedf90a66e044a89b2d958be409b8da&oe=5F98FE13" alt="family picture" width="360" height="500"/>
- </div>
+* { box-sizing: border-box; }
 
-<div class="clm">
-<img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/101557163_2665631780384053_9040079552969179136_o.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=Fu7mn9kwnUoAX-sbq6e&_nc_ht=scontent-lhr8-1.xx&oh=db0f2d4af1232e9002b68a519426863f&oe=5F98DC00" alt="wedding pic" width="360" height="500"/>
-</div>
-</div>
+.clm { float:left; width: 50%; padding: 5px; }
+.row: :afer{ content:""; display: table; clear: both; }
