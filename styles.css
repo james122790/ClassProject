@@ -11,13 +11,13 @@
 nav{
 }
 
-nav ul li{
+nav li{
  list-style:none;
  display: inline-block;
  float: left;
 }
 
- nav ul li a{
+ nav li a{
  text-decoration: none;
  font-size: 14px;
  font-family: arial;
