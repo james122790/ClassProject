@@ -21,6 +21,10 @@ body{
  width:  1300px;
 }
 
+.box{
+   background: salmon;
+}
+
 .container{
  width: 80%;
  margin: 0 75px;
