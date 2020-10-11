@@ -14,6 +14,7 @@ body{
 
 header {
  background: #55d6aa;
+ height: 50px;
 }
 
 header:after{
@@ -46,7 +47,9 @@ nav ul li a{
 }
  
  
-* { box-sizing: border-box; }
+* { box-sizing: border-box;
+   width: 70%;
+}
 
  .clm { float:left; width: 50%; padding: 5px; }
 .row: :afer{ content:''; display: table; clear: both; }
