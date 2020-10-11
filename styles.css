@@ -9,6 +9,11 @@ body{
  font-size:larger
 }
 
+.wrapper{
+ maring: 0 auto;
+ width: 1500 px
+}
+
 .container{
  width: 80%;
  margin: 0 75px;
