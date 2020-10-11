@@ -3,7 +3,7 @@
 body{
  margin: 0;
  background-color: #222;
- font-family: time new roman;
+ font-family: times new roman;
  font-weight: 300;
 }
 
@@ -14,6 +14,16 @@ body{
 
 nav{
  float: right;
+}
+
+nav ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+nav li{
+ display: inline-block;
 }
 
 * { box-sizing: border-box; }
