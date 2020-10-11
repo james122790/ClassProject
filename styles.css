@@ -23,6 +23,7 @@ body{
 
 .box{
    background: salmon;
+   padding: 20px 20px;
 }
 
 .container{
@@ -71,7 +72,7 @@ nav ul li a:hover{
 * { box-sizing: border-box;
 }
 
- .clm { float:left; width: 50%; padding: 5px; }
+ .clm { float:left; padding: 5px; }
 .row: :afer{ content:''; display: table; clear: both; }
 
 
