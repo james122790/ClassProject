@@ -72,7 +72,7 @@ nav ul li a:hover{
 * { box-sizing: border-box;
 }
 
- .clm { float:left; padding: 5px; }
+ .clm { float:right; padding: 5px; }
 .row: :afer{ content:''; display: table; clear: both; }
 
 
