@@ -12,6 +12,10 @@ body{
  margin: 0 auto;
 }
 
+header {
+ background: #55d6aa;
+}
+
 nav{
  float: left;
  
