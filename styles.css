@@ -25,6 +25,7 @@ nav ul{
 nav li{
  display: inline-block;
  margin-left: 70px;
+ padding: 20px 0;
 }
 
 * { box-sizing: border-box; }
