@@ -90,6 +90,17 @@ hr{width:90%;
  .clm2 { float:left; padding: 25px; }
 .row2: :afer{ content:''; display: table; clear: both; }
 
+table{
+ width: 400px;
+}
+
+th{
+ text-align: left;
+}
+
+table, th, td {
+ border: 1px solid #55d6aa;
+}
 
 
 
