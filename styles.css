@@ -5,6 +5,7 @@ body{
  margin: 0;
  background-image: url(nature.jpg);
  background-size: cover;
+ background-attachment: fixed;
  font-family: Comic Sans MS;
  font-weight: 300;
  font-size: x-large;
@@ -72,11 +73,9 @@ nav ul li a:hover{
 }
 
 hr{width:90%;
-   top: 20px;
-   border: none;
+   border: ivory;
    height: 12px;
-   background: #55d6aa
-   margin-bottom: 50px;
+   background: #55d6aa;
 }
  
 * { box-sizing: border-box;
