@@ -5,9 +5,9 @@ body{
  margin: 0;
  background-image: url(nature.jpg);
  background-size: cover;
- font-family: cursive;
+ font-family: Comic Sans MS;
  font-weight: 300;
- font-size:larger;
+ font-size: x-large;
  color: ivory;
 }
 
@@ -15,6 +15,8 @@ body{
  margin: 0 auto;
  width: 1500px;
 }
+
+h2{color: #55d6aa}
 
 .wrapper{
  margin: 0 auto;
