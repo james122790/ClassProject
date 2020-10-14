@@ -91,7 +91,8 @@ hr{width:90%;
 .row2: :afer{ content:''; display: table; clear: both; }
 
 table{
- width: 800px;
+ width: 850px;
+ margin: auto auto;
 }
 
 th{
