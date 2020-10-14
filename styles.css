@@ -107,4 +107,9 @@ td{
  font-size: x-large;
 }
 
+caption{font-size: xx-large;
+       font-weight: bolder;
+       text-decoration:underline black;
+       }
+
 
