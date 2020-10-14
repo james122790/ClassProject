@@ -50,8 +50,8 @@ nav{
  }
 
 nav ul{
- margin:0;
- padding: 0;
+ margin:auto auto;
+ padding: auto auto;
  list-style: none;
 }
 
@@ -66,10 +66,12 @@ nav ul li a{
  text-decoration: none;
  text-transform: uppercase;
  font-size: large;
+ font-weight: bold;
 }
  
 nav ul li a:hover{
     color: firebrick;
+ background: ivory;
 }
 
 hr{width:90%;
