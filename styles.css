@@ -120,9 +120,8 @@ caption{font-size: xx-large;
 }
 
 .gallery img{
-   transition: 1s;
    padding: 15px;
-   width: 200px;
+   width: auto;
 }
 
 .gallery img:hover {
