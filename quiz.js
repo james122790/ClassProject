@@ -8,10 +8,10 @@ function check() {
  
   
  if(c==0){
- result.textContent='You got 0 correct. Where you even trying?'
+ result.textContent='You got 0 correct. Where you even trying?'}
       
  if(c==1){
- result.textContent='You got 1 correct. You can do better than that!'
+ result.textContent='You got 1 correct. You can do better than that!'}
 
  if(c==2){
  result.textContent='Perfect Score!'
