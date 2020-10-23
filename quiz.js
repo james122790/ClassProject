@@ -4,8 +4,8 @@ function check() {
   var q2=document.quiz.question2.value;
   var result=document.getElementById('result');
   var quiz=document.getElementById("quiz");
-   if (q1=="James"){c++}
-   if (q2=="Casey"){c++}
+   if (q1=="James") {c++}
+   if (q2=="Casey") {c++}
  
   
      
