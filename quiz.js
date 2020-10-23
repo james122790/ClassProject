@@ -13,3 +13,4 @@ function check() {
       result.textContent='Your result is${c}. You have failed my test.'
   }  else {
       result.textContent='Your result is${c}. You have passed my test.'
+  }
