@@ -9,16 +9,10 @@ function check() {
  
   
      
-    if (c=0) {
-      result.textContent='You got 0 correct. Please try again.'
-}
-
-  if (c=1) {
-      result.textContent='You got 1 correct. You can do better.'
-}
-
- if (c=2) {
-      result.textContent='You got 2 correct. Perfect Score!'
-}
+    if (c<=1) {
+       result.textContent='Your score is ${c}. Try again.
+    }
+     else{result.textContent='Your score is ${c}. You passed.
+    }
 
 }
