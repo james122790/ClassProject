@@ -6,5 +6,9 @@ function check() {
    if (q1=="James") {c++}
    if (q2=="Casey") {c++}
  
-document.write(c);
+if(c=2){
+  result.textContent='Perfect Score!'
+} else{
+  result.textContent='Please try again.'
+}
 }
