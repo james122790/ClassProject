@@ -134,3 +134,8 @@ caption{font-size: xx-large;
    transform: scale(1.1)
 }
   
+.nav .current {
+   background-color: ivory;
+}
+
+   
