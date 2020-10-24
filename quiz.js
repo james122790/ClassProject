@@ -15,7 +15,7 @@ function check() {
  
   
  if(c==0){
- result.textContent='You got 0 correct. Where you even trying?'
+ result.textContent='You got 0 correct. I think you forgot to answer the questions?'
  }
       
  if(c==1){
