@@ -121,16 +121,16 @@ caption{font-size: xx-large;
        }
 
 .gallery{
-   margin: 10px 50px;
+   margin: 5px 10px;
 }
 
 .gallery img{
-   padding: 15px;
+   padding: 10px;
    width: auto;
 }
 
 .gallery img:hover {
    filter: grayscale(100%);
-   transform: scale(1.2)
+   transform: scale(1.1)
 }
   
