@@ -24,6 +24,11 @@ h2{color: #55d6aa}
  width:  1300px;
 }
 
+.wrapper2{
+ margin: 0 auto;
+ width: 2000px;
+}
+
 .box{
    background: salmon;
    padding: 20px 20px;
