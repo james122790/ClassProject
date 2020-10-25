@@ -1,4 +1,4 @@
-
+/* James Sparks, CSS, last edited 10/24/2020*/
 
 
 body{
@@ -11,38 +11,46 @@ body{
  font-size: x-large;
  color: ivory;
 }
+/* Adds background, font color,size */
 
 .nav wrapper{
  margin: 0 auto;
  width: 1500px;
 }
+/* Wrapper for my navigation bar*/
 
 h2{color: #55d6aa}
+/* header font color*/
 
 .wrapper{
  margin: 0 auto;
  width:  1300px;
 }
+/* wrapper for body of page*/
 
 .wrapper2{
  margin: 0 auto;
  width: 2000px;
 }
+/* wrapper for body of page/gallery only*/
 
 .box{
    background: salmon;
    padding: 20px 20px;
 }
+/* adds background color to main content, make font color stand out*/
 
 .container{
  width: 80%;
  margin: 0 75px;
 }
+/* holds navigation bar info*/
 
 header {
  background: #55d6aa;
  height: 100px;
 }
+/*navigation bar color and size*/
 
 header:after{
  content:'';
@@ -50,21 +58,25 @@ header:after{
  clear: both;
 }
 
+
 nav{
  float: left;
  }
+/*content float toward the left*/
 
 nav ul{
  margin:auto auto;
  padding: auto auto;
  list-style: none;
 }
+/* spacing is automatically determined*/
 
 nav li{
  display: inline-block;
  margin-left:15px;
  padding: 35px;
 }
+/* puts nav links in a row and creates spacing in between*/
 
 nav ul li a{
  color: #444;
@@ -73,17 +85,20 @@ nav ul li a{
  font-size: large;
  font-weight: bold;
 }
+/* color and text options for nav links*/
  
 nav ul li a:hover{
     color: firebrick;
  background: ivory;
 }
+/*effect when mouse is hovering over nav links*/
 
 hr{width:90%;
    border: ivory;
    height: 12px;
    background: #55d6aa;
 }
+/* efects for hr line break*/
  
 * { box-sizing: border-box;
 }
@@ -96,46 +111,56 @@ hr{width:90%;
 
  .clm2 { float:left; padding: 25px; }
 .row2: :afer{ content:''; display: table; clear: both; }
+/* spacing and display for home page images*/
 
 table{
  width: 850px;
  margin: auto auto;
 }
+/* table size*/
 
 th{
  text-align: left;
  font-size: xx-large;
 }
+/* table header text location and size*/
 
 table, th, td {
  border: 1px solid #55d6aa;
 }
+/* adds border around table*/
 
 td{
  font-size: x-large;
 }
+/* changes data font size*/
 
 caption{font-size: xx-large;
        font-weight: bolder;
        text-decoration:underline black;
        }
+/* caption look*/
 
 .gallery{
    margin: 5px 10px;
 }
+/* spacing in wrapper*/
 
 .gallery img{
    padding: 10px;
    width: auto;
 }
+/* space between images*/
 
 .gallery img:hover {
    filter: grayscale(100%);
    transform: scale(1.1)
 }
+/* effect when mouse hovers over images*/
   
 .nav .current {
    background-color: ivory;
 }
+/* tells user what page is active*/
 
    
