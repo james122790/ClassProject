@@ -1,7 +1,8 @@
 <html>
      <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Code added to link my styles.css page, where my css coding is located -->
      <script type="text/javascript" src="quiz.js"></script>
-   <!-- Code added to link my styles.css page, where my css coding is located -->
+   <!-- Code added to link my javascript -->
   
   <body>
    
@@ -20,7 +21,7 @@
      <li><a class="current" href="quiz.html">Quiz</a></li>
     </ul>
    </nav>
-    
+    <!-- Navigation bar -->
     </div>
    </div>
    </header>
@@ -33,6 +34,7 @@
             <h1> Now, let's see whose been paying attenetion!</h1>
           
                  <form name="quiz" id="quiz">
+                      <!--form name so javascript knows where to look-->
 
                  <div>
                           <p>1. What method of folding is best for saving space in your luggage?</p>
@@ -41,7 +43,9 @@
                           <p><input type="radio" name="question1" value="Square Fold">C. Square Fold</p>
                           <p><input type="radio" name="question1" value="Ball up">D. Ball up</p>
                  </div>
+                      <!--question 1 and possible answers-->
                  <hr>
+                      <!--visible line break-->
                  <div>
                           <p>2. Where can you find activities to do on your trip?</p>
                           <p><input type="radio" name="question2" value="Skyscanner">A. Skyscanner</p>
@@ -49,38 +53,47 @@
                           <p><input type="radio" name="question2" value="AirBNB Experiences">C. AirBNB Experiences</p>
                           <p><input type="radio" name="question2" value="Southwestern College">D. Southwestern College</p>
                  </div>   
+                       <!--question 2 and possible answers-->
                       <hr>
+                      <!--visible line break-->
                        <div>
                           <p>3. What website can you use to find flights?</p>
                           <p><input type="radio" name="question3" value="Skycanner">A. Skyscanner</p>
                           <p><input type="radio" name="question3" value="AirBNB">B. AirBNB</p>
                           <p><input type="radio" name="question3" value="Facebook">C. Facebook</p>
                           <p><input type="radio" name="question3" value="Blackboard">D. Blackboard</p>
-                 </div>   
+                 </div> 
+                       <!--question 3 and possible answers-->
                       <hr>
+                      <!--visible line break-->
                        <div>
                           <p>4. If you don't want to stay in a hotel, what site can you use to find an place to stay?</p>
                           <p><input type="radio" name="question4" value="Github">A. Github</p>
                           <p><input type="radio" name="question4" value="Lochness.com">B. Lochness.com</p>
                           <p><input type="radio" name="question4" value="Sckans.edu">C. Sckans.edu</p>
                           <p><input type="radio" name="question4" value="AirBNB">D. AirBNB</p>
-                 </div>   
+                 </div> 
+                       <!--question 4 and possible answers-->
                       <hr>
+                      <!--visible line break-->
                        <div>
                           <p>5. In what city did Anne Frank hide?</p>
                           <p><input type="radio" name="question5" value="Warsaw">A. Warsaw</p>
                           <p><input type="radio" name="question5" value="Berlin">B. Berlin</p>
                           <p><input type="radio" name="question5" value="Amsterdam">C. Amsterdam</p>
                           <p><input type="radio" name="question5" value="Frankfurt">D. Frankfurt</p>
-                 </div>   
+                 </div>  
+                       <!--question 5 and possible answers-->
                       
                       
                  
         
                <input type="button" value="Submit" id="button" onclick="check()">    
             </form>
+            <!-- submit button that tells javascript to tally the correct answers-->
       
             <p id="result"></p>
+            <!-- gives message depending on how many answers the user got correctly -->
             
             
        </div>
